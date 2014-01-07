@@ -1,8 +1,8 @@
 #!/bin/bash
+
 mkdir casa
 cd casa
-mkdir casa-bootstrap
-curl -L -0 https://api.github.com/repos/AppSharing/casa-bootstrap/tarball | tar -zx -C casa-bootstrap --strip-components 1
+git clone https://github.com/AppSharing/casa-bootstrap.git
 cd casa-bootstrap
 bundle
 thor dev:setup
