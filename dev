@@ -5,4 +5,4 @@ cd casa
 git clone https://github.com/AppSharing/casa-bootstrap.git
 cd casa-bootstrap
 bundle
-thor dev:setup
+bundle exec thor dev:setup
